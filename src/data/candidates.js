@@ -14,6 +14,7 @@ export const candidates = {
     name: 'Chloe Brown (Endorsed by Olivia Chow)',
     description:
       'Strong, data driven approach to improve the TTC. Calls for strict accountability from Metrolinx. Supporter of protected bike lanes and progressive urban planning endeavors.',
+    links: ['https://www.cb4ward1.ca/active-connected/right2move'],
   }, // Etobicoke North
   '02': {
     name: 'Katie Andrachuk',
@@ -25,6 +26,10 @@ export const candidates = {
     name: 'Amber Morley',
     description:
       'Visionary for major improvements to TTC service in Etobicoke-Lakeshore. Aggressively against the removal of bike lanes and supporter of redesigning streetscapes to reduce traffic.',
+    links: [
+      'https://www.ambermorley.com/',
+      'https://www.cbc.ca/news/canada/toronto/bike-rally-community-meeting-bike-lanes-bloor-street-west-1.7354291',
+    ],
   }, // Etobicoke-Lakeshore
   '04': {
     name: 'Diana Chan-McNally',
@@ -86,6 +91,7 @@ export const candidates = {
     name: 'Curran Stikuts',
     description:
       'Supports dedicated funding to public transportation and restoration of cut services. Staunch supporter of bike lane growth and congestion pricing.',
+    links: ['https://votecurran.ca/platform/#getting-around'],
   }, // Toronto Centre
   '14': {
     name: 'Sara Ehrhardt',
@@ -112,21 +118,25 @@ export const candidates = {
     name: 'Lily Cheng (Incumbent)',
     description:
       'Suburban transport focus and supports adoption of Transit Signal Priority. Proponent of cycling facilities and against provincial removals, lobbied for smart signals rollout!',
+    links: ['https://www.lilycheng.ca/blogupdates/categories/transportation-transit'],
   }, // Willowdale
   '19': {
     name: 'Nathaniel Erskine-Smith',
     description:
       'Strong focus on speeding up local TTC facilities, supports large capacity developments to spur local density. Staunch supporter of protected cycling facilities.',
+    links: ['https://www.nateerskinesmith.ca/policies'],
   }, // Beaches-East York
   '20': {
     name: 'Kevin Rupasinghe',
     description:
       'Strong focus on dedicated and fast suburban transit and lowering fare cap for students. Major proponent of protected bicycle facilities and active transportation to lower congestion.',
+    links: ['https://www.kevinrupasinghe.ca/bettertransit'],
   }, // Scarborough Southwest
   '21': {
     name: 'Krissan Veerasignam',
     description:
       'Strong supporter of frequent service and expanded fare capping. Supporter of separated cycling and pedestrian facilities to allow users to travel safely away from major corridors.',
+    links: ['https://www.krissan4scarb.ca/priorities'],
   }, // Scarborough Centre
   '22': {
     name: 'Dan Lovell',

@@ -10,9 +10,9 @@ const ESRI_LABELS =
 
 function wardStyle(selected) {
   return {
-    color: selected ? '#163a63' : '#4c86c6',
+    color: selected ? '#C21D16' : '#d36a62',
     weight: selected ? 2.5 : 1.6,
-    fillColor: selected ? '#163a63' : '#d7e6f5',
+    fillColor: selected ? '#C21D16' : '#f6d5d1',
     fillOpacity: selected ? 0.28 : 0.45,
   };
 }
@@ -182,6 +182,11 @@ export default function WardMap({ selectedCode, onSelect, sidebarOpen, mayorActi
           Mayoral
         </button>
       </div>
+      <img
+        className="map-logo"
+        src={`${import.meta.env.BASE_URL}rocket-riders-logo.png`}
+        alt="University of Toronto Rocket Riders"
+      />
       <MapContainer center={[43.73, -79.38]} zoom={11} className="map">
         <TileLayer
           attribution='Powered by <a href="https://www.esri.com/">Esri</a> | Esri, HERE'
