@@ -9,6 +9,12 @@ export default function App() {
   function handleSelect(feature) {
     const { AREA_SHORT_CODE: code, AREA_NAME: name } = feature.properties;
     const recommendation = candidates[code] ?? { name: '', description: '', links: [] };
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'select_ward', {
+        ward_code: code,
+        ward_name: name,
+      });
+    }
     setWard({
       kind: 'ward',
       code,

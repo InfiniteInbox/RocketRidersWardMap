@@ -169,14 +169,19 @@ export default function WardMap({ selectedCode, onSelect, sidebarOpen, mayorActi
 
   return (
     <div className="map-wrap">
-      <button
-        type="button"
-        className={`mayor-button${mayorActive ? ' mayor-button--active' : ''}`}
-        aria-pressed={mayorActive}
-        onClick={onMayor}
-      >
-        Mayoral
-      </button>
+      <div className="map-actions">
+        <a className="mayor-button" href="https://myvote.toronto.ca/home">
+          Register to Vote
+        </a>
+        <button
+          type="button"
+          className={`mayor-button${mayorActive ? ' mayor-button--active' : ''}`}
+          aria-pressed={mayorActive}
+          onClick={onMayor}
+        >
+          Mayoral
+        </button>
+      </div>
       <MapContainer center={[43.73, -79.38]} zoom={11} className="map">
         <TileLayer
           attribution='Powered by <a href="https://www.esri.com/">Esri</a> | Esri, HERE'
