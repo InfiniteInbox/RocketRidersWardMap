@@ -123,7 +123,7 @@ export default function WardMap({ selectedCode, onSelect, sidebarOpen, mayorActi
 
   useEffect(() => {
     let cancelled = false;
-    fetch('/toronto-wards.geojson')
+    fetch(`${import.meta.env.BASE_URL}toronto-wards.geojson`)
       .then((response) => {
         if (!response.ok) throw new Error('Could not load ward boundaries');
         return response.json();
