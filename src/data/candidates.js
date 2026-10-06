@@ -5,6 +5,7 @@
  */
 export const mayor = {
   name: 'Olivia Chow',
+  photo: 'candidates/olivia-chow.jpg',
   description:
     'Supporting the reduction of fare capping minimum to 10 rides a week. Continuing fare freezing policy. Against the removal of bike lanes push from the Ford government.',
 };
@@ -12,18 +13,21 @@ export const mayor = {
 export const candidates = {
   '01': {
     name: 'Chloe Brown (Endorsed by Olivia Chow)',
+    photo: 'candidates/chloe-brown.jpg',
     description:
       'Strong, data driven approach to improve the TTC. Calls for strict accountability from Metrolinx. Supporter of protected bike lanes and progressive urban planning endeavors.',
     links: ['https://www.cb4ward1.ca/active-connected/right2move'],
   }, // Etobicoke North
   '02': {
     name: 'Katie Andrachuk',
+    photo: 'candidates/katie-andrachuk.jpg',
     description:
       'Unlike the incumbent, she is supportive of providing alternatives to driving to reduce congestion, like biking and transit routes.',
     links: ['https://www.votekatie.ca/home#my-priorities'],
   }, // Etobicoke Centre
   '03': {
     name: 'Amber Morley',
+    photo: 'candidates/amber-morley.jpg',
     description:
       'Visionary for major improvements to TTC service in Etobicoke-Lakeshore. Aggressively against the removal of bike lanes and supporter of redesigning streetscapes to reduce traffic.',
     links: [
@@ -33,6 +37,7 @@ export const candidates = {
   }, // Etobicoke-Lakeshore
   '04': {
     name: 'Diana Chan-McNally',
+    photo: 'candidates/diana-chan-mcnally.jpg',
     description:
       'Huge transit advocate; supportive of enhancing RapidTO, priority transportation in Ward 4 specific neighbourhoods. Big focus on improving transit safety.',
     links: [
@@ -41,121 +46,144 @@ export const candidates = {
   }, // Parkdale-High Park
   '05': {
     name: 'Chiara Padovani',
+    photo: 'candidates/chiara-padovani.jpg',
     description:
       'Strong pro-transit platform. Affordable fares, general street safety, & expanded bus service frequency.',
     links: ['https://www.chiarapadovani.ca/roads'],
   }, // York South-Weston
   '06': {
-    name: 'James Pasternak (Incumbent)',
+    name: 'Convoy Irving',
+    photo: 'candidates/conroy-irving.jpg',
     description:
-      'Participates in transit council motions. Has an Infrastructure and Transportation Advisor staff. Adjusts TTC routes from granular complaints.',
-    links: ['https://www.toronto.ca/city-government/council/members-of-council/councillor-ward-6/'],
+      'Systemic focus. Economically ties public transport with affordable housing and community safety. Transit access improvements are listed in his 10-point plan.',
+    links: ['https://www.ttcriders.ca/2026ward6'],
   }, // York Centre
   '07': {
     name: 'Amanda Coombs',
+    photo: 'candidates/amanda-coombs.jpg',
     description:
       'Grassroots approach, inclusive fare capping, financial integration for students with double pay or financial strain. Off peak demand & suburban bus frequency.',
     links: ['https://www.ttcriders.ca/2026ward7', 'https://voteamandacoombs.com/platform/'],
   }, // Humber River-Black Creek
   '08': {
     name: 'Daniel Trays',
+    photo: 'candidates/daniel-trayes.jpg',
     description:
       'Transit reliant & city hall credentials. Lower student fares, increased route frequency, & transport construction issues.',
     links: ['https://www.buildcanada.com/toronto/vote/2026/candidates/daniel-trayes'],
   }, // Eglinton-Lawrence
   '09': {
     name: 'Alexandra Bravo (Incumbent)',
+    photo: 'candidates/alejandra-bravo.jpg',
     description:
       'Transit reliant. TTC Board Member & Olivia Chow’s Executive Committee. TTC Fair Pass Program for low income residents and students. Consistent transit newsletter.',
     links: ['https://www.bravodavenport.ca/my_plan?active=faster_cheaper_transit'],
   }, // Davenport
   '10': {
     name: 'Andi Hoàng-Lefranc',
+    photo: 'candidates/andi-hoang-lefranc.jpg',
     description:
       'Committed to transit signal prioritisation, advocates for fare-free transit, especially for youth! Participated in the TTCRiders Transit Pledge.',
     links: ['https://www.ttcriders.ca/candidatespledge#:~:text=Andi,York'],
   }, // Spadina-Fort York
   '11': {
     name: 'Diana Yoon',
+    photo: 'candidates/diana-yoon.jpg',
     description:
       'Supportive of a 10 rides a week policy, platform screen doors, and traffic light adjustments to reduce congestion for streetcars and buses.',
     links: ['https://www.voteyoon.ca/community'],
   }, // University-Rosedale
   '12': {
     name: 'Josh Matlow',
+    photo: 'candidates/josh-matlow.jpg',
     description:
       'Sits on the TTC Board. In support of fare capping, an affordable student fare, bike lanes, improving current transit projects, and faster surface transit, in order to improve congestion.',
     links: ['https://www.joshmatlow.ca/bio'],
   }, // Toronto-St. Paul's
   '13': {
     name: 'Curran Stikuts',
+    photo: 'candidates/curran-stikuts.jpg',
     description:
       'Supports dedicated funding to public transportation and restoration of cut services. Staunch supporter of bike lane growth and congestion pricing.',
     links: ['https://votecurran.ca/platform/#getting-around'],
   }, // Toronto Centre
   '14': {
     name: 'Sara Ehrhardt',
+    photo: 'candidates/sara-ehrhardt.jpg',
+    photoPosition: '30% 16%',
     description: 'Supports fare-capping at 10 rides per week and promotes safety on the TTC.',
     links: ['https://www.saraehrhardt.ca/'],
   }, // Toronto-Danforth
   '15': {
     name: 'Sheena Sharp',
+    photo: 'candidates/sheena-sharp.jpg',
     description: 'Wants to implement streetcar priority corridors, service improvements, and faster operation.',
     links: ['https://www.votesheenasharp.ca/'],
   }, // Don Valley West
   '16': {
     name: 'Didi Moffat',
+    photo: 'candidates/didi-moffat.png',
     description:
       'Advocate for bettering suburban connections to rapid transit, biking accessibility, safer school zones, etc.',
     links: ['https://www.iamdidimoffat.ca/#priorities'],
   }, // Don Valley East
   '17': {
     name: 'Shelley Carroll',
+    photo: 'candidates/shelley-carroll.jpg',
     description: 'Wants to improve TTC’s accessible connections, affordability and service connections.',
     links: ['https://www.voteshelleycarroll.ca/platform'],
   }, // Don Valley North
   '18': {
     name: 'Lily Cheng (Incumbent)',
+    photo: 'candidates/lily-cheng.jpg',
     description:
       'Suburban transport focus and supports adoption of Transit Signal Priority. Proponent of cycling facilities and against provincial removals, lobbied for smart signals rollout!',
     links: ['https://www.lilycheng.ca/blogupdates/categories/transportation-transit'],
   }, // Willowdale
   '19': {
     name: 'Nathaniel Erskine-Smith',
+    photo: 'candidates/nate-erskine-smith.jpg',
+    photoPosition: '40% 14%',
     description:
       'Strong focus on speeding up local TTC facilities, supports large capacity developments to spur local density. Staunch supporter of protected cycling facilities.',
     links: ['https://www.nateerskinesmith.ca/policies'],
   }, // Beaches-East York
   '20': {
     name: 'Kevin Rupasinghe',
+    photo: 'candidates/kevin-rupasinghe.jpg',
     description:
       'Strong focus on dedicated and fast suburban transit and lowering fare cap for students. Major proponent of protected bicycle facilities and active transportation to lower congestion.',
     links: ['https://www.kevinrupasinghe.ca/bettertransit'],
   }, // Scarborough Southwest
   '21': {
     name: 'Krissan Veerasignam',
+    photo: 'candidates/krissan-veerasignam.png',
     description:
       'Strong supporter of frequent service and expanded fare capping. Supporter of separated cycling and pedestrian facilities to allow users to travel safely away from major corridors.',
     links: ['https://www.krissan4scarb.ca/priorities'],
   }, // Scarborough Centre
   '22': {
     name: 'Dan Lovell',
+    photo: 'candidates/dan-lovell.jpg',
     description: 'Proponent of free youth and senior fares, connecting dense Scarborough communities to transit. Proponent of grade separated cycling facilities to allow users to travel safely away from major corridors.',
     links: ['https://www.danlovell.ca/platform'],
   }, // Scarborough-Agincourt
   '23': {
     name: 'Jamaal Myers (Incumbent)',
+    photo: 'candidates/jamaal-myers.jpg',
     description:
       'Chair of TTC, TTC & bike dependent. Co-sponsored TTC Infrastructure motion, co-announced fare capping, opposed to bike lane removals, bus lane advocate. Rapid bus transit on Finch & expanding dedicated lanes citywide.',
     links: ['https://www.jamaalmyers.com/ttc-in-ward-23'],
   }, // Scarborough North
   '24': {
     name: 'Paul Ainslie (Incumbent)',
+    photo: 'candidates/paul-ainslie.jpg',
     description: 'Wants to make investments to improve transit reliability and service improvements.',
     links: ['https://www.voteainslie.ca/'],
   }, // Scarborough-Guildwood
   '25': {
     name: 'Neethan Shan',
+    photo: 'candidates/neethan-shan.jpg',
     description:
       'An advocate for lower transit costs, safer transit and traffic calming measures to reduce congestion.',
     links: ['https://neethanshan.ca/#vision'],

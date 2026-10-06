@@ -25,8 +25,20 @@ export default function Sidebar({ ward, onClose }) {
           </button>
           <p className="sidebar__kicker">{ward.kicker}</p>
           <h2 className="sidebar__title">{ward.name}</h2>
-          <p className="sidebar__label">Recommended candidate</p>
-          <p className="sidebar__name">{ward.candidate || 'Name not added yet'}</p>
+          <div className="sidebar__candidate">
+            {ward.photo ? (
+              <img
+                className="sidebar__photo"
+                src={`${import.meta.env.BASE_URL}${ward.photo}`}
+                alt=""
+                style={ward.photoPosition ? { objectPosition: ward.photoPosition } : undefined}
+              />
+            ) : null}
+            <div>
+              <p className="sidebar__label">Recommended candidate</p>
+              <p className="sidebar__name">{ward.candidate || 'Name not added yet'}</p>
+            </div>
+          </div>
           {ward.description ? <p className="sidebar__description">{ward.description}</p> : null}
           {ward.links?.length ? (
             <ul className="sidebar__links">

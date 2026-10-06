@@ -21,6 +21,8 @@ export default function App() {
       kicker: `Ward ${Number(code)}`,
       name,
       candidate: recommendation.name,
+      photo: recommendation.photo ?? '',
+      photoPosition: recommendation.photoPosition,
       description: recommendation.description,
       links: recommendation.links ?? [],
     });
@@ -36,6 +38,8 @@ export default function App() {
             kicker: 'Mayoral',
             name: 'Toronto',
             candidate: mayor.name,
+            photo: mayor.photo ?? '',
+            photoPosition: mayor.photoPosition,
             description: mayor.description,
             links: mayor.links ?? [],
           },

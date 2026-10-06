@@ -166,6 +166,22 @@ body {
   font-weight: 700;
 }
 
+.sidebar__candidate {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.sidebar__photo {
+  width: 88px;
+  height: 88px;
+  flex: none;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 22%;
+  background: #eef1f5;
+}
+
 .sidebar__label {
   margin: 0;
   color: #5d6b80;
@@ -176,7 +192,7 @@ body {
 }
 
 .sidebar__name {
-  margin: 8px 0 0;
+  margin: 6px 0 0;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.25;
