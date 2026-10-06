@@ -28,6 +28,25 @@ export default function App() {
     });
   }
 
+  function handleRegister(event) {
+    const url = event.currentTarget.href;
+    if (typeof window.gtag !== 'function') return;
+
+    event.preventDefault();
+    let moved = false;
+    const go = () => {
+      if (moved) return;
+      moved = true;
+      window.location.assign(url);
+    };
+    window.gtag('event', 'register_to_vote', {
+      link_url: url,
+      event_callback: go,
+      event_timeout: 1000,
+    });
+    window.setTimeout(go, 1000);
+  }
+
   function handleMayor() {
     setWard((current) =>
       current?.kind === 'mayor'
@@ -53,6 +72,7 @@ export default function App() {
         mayorActive={ward?.kind === 'mayor'}
         sidebarOpen={Boolean(ward)}
         onSelect={handleSelect}
+        onRegister={handleRegister}
         onMayor={handleMayor}
       />
       <Sidebar ward={ward} onClose={() => setWard(null)} />

@@ -112,7 +112,7 @@ function ResizeMap({ open }) {
   return null;
 }
 
-export default function WardMap({ selectedCode, onSelect, sidebarOpen, mayorActive, onMayor }) {
+export default function WardMap({ selectedCode, onSelect, sidebarOpen, mayorActive, onMayor, onRegister }) {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const geoRef = useRef(null);
@@ -170,7 +170,7 @@ export default function WardMap({ selectedCode, onSelect, sidebarOpen, mayorActi
   return (
     <div className="map-wrap">
       <div className="map-actions">
-        <a className="mayor-button" href="https://myvote.toronto.ca/home">
+        <a className="mayor-button" href="https://myvote.toronto.ca/home" onClick={onRegister}>
           Register to Vote
         </a>
         <button
